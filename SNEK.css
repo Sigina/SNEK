@@ -1,0 +1,300 @@
+body {
+  background-color: black;
+  color: chartreuse;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+  font-size: 45px;
+  text-align: left;
+}
+
+nav {
+  background-color: #404040;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-left: 20px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 20px;
+}
+
+nav a {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: chartreuse;
+}
+
+footer {
+  background-color: #404040;
+  color: whitesmoke;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  clear: left;
+}
+main{
+  font-family: 'Times New Roman', Times, serif;
+  overflow: auto;
+}
+main p,
+main h3,
+main ul,
+main h4 {
+  margin-left: 85px;
+  margin-right: 85px;
+  padding-top: 20px;
+  color: chartreuse;
+  text-align: center;
+  font-size: 30px;
+  list-style-type: none;
+  
+
+}
+
+
+main h2{
+  font-size:35px;
+  text-align: center;
+}
+
+#h4wheretobuy{
+  font-size: 3em;
+}
+#introduction {
+  border:10px solid green;
+  margin-left:200px;
+  margin-right:200px;
+  padding: 50px 50px 50px 50px;
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+}
+
+.store-locations1 {
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+#low-yat-plaza {
+  height: 300px;
+  width: 400px;
+  float: left;
+  border-radius: 20px;
+}
+
+p {
+  font-size: 2em;
+}
+#low-yat-plaza-store-introduction {
+  font-size: 1.5em;
+}
+
+#googlemaps{
+  font-size: 1.5em;
+}
+
+.descriptions1{
+  margin-left: 500px;
+  max-width: 100%;
+  text-align:center;
+  margin-right:100px;
+  border: 10px solid green;
+  padding:0;
+}
+
+#view-full-img1{
+  clear:both;
+  text-align:center;
+  font-size:.9em;
+  border:5px solid green;
+  margin-right: 1075px;
+  padding:10px 10px 10px 10px;
+  margin-left:0px;
+  margin-top:0px;
+}
+
+#ly-plaza{
+  font-size: 2.5em;
+  clear: both;
+}
+
+#qb-mall{
+  text-align: right;
+  font-size: 2.5em;
+  margin-right:20px;
+  clear:both;
+}
+
+#qb-image{
+  height:300px;
+  width: 400px;
+  float:right;
+  padding-right: 10px;
+  border-radius: 20px;
+   
+}
+
+.store-locations2{
+  margin-right: 30px;
+  margin-left: 30px;
+  
+}
+
+
+#qb-mall-store-introduction{
+  font-size:1.5em;
+}
+
+#shopee-lazada{
+  font-size:2.5em;
+}
+
+.descriptions2{
+  border: 10px solid green;
+  margin-right: 500px;
+  text-align: center;
+}
+
+#view-full-img2{
+  border:5px solid green;
+  clear:both;
+  margin-left: 1040px;
+  margin-right: 10px;
+  font-size: 0.9em;
+  padding: 10px 10px 10px 10px;
+  
+}
+
+div a:visited{
+  color:aqua;
+}
+
+.store-locations3{
+  text-align:center;
+}
+
+#onlinestore{
+  border: 10px solid green;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-left:100px;
+  margin-right:100px;
+}
+#razer-shopee-img{
+  float:left;
+  height:500px;
+  width:725px;
+  padding-left:30px;
+}
+
+#razer-lazada-img{
+  float:right;
+  height: 500px;
+  width: 700px;
+  padding-right:30px;
+
+}
+
+#thumbsup{
+  height:80px;
+  width:80px;
+}
+
+#link-to-shopee{
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+
+#description-shopee{
+  border: 10px solid green;
+  padding: 30px 30px 30px 30px;
+  margin-left:-50px;
+  font-size: 2em;
+  clear:both;
+}
+
+#description-lazada{
+  border: 10px solid green;
+  clear: both;
+  font-size: 2em;
+  padding: 30px 30px 30px 30px;
+}
+
+#customer-service{
+  background-image: url(/images/feedback.jpg);
+  background-size: 100% 100%;
+  height:650px;
+  width:1250px;
+  background-position-x: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center{
+  line-height: 200px;
+  height: 200px; 
+  text-align:center;
+}
+
+.center p{
+  line-height:1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.testing{
+  border: 10px solid green;
+  padding: 20px 20px 20px 20px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label{
+  margin-right: 20px;
+}
+
+label, input, textarea{
+  margin: 20px 20px 20px 20px;
+  font-size:1.8em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input{
+  margin-left:20px;
+}
+
+textarea{
+  margin-left: 10px;
+}
+
+#submit{
+  margin-left:38em;
+}
+
+#f1{
+  display:block;
+}
